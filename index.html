@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="may_tinh.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<script src="main.js"></script>
+</body>
+
+<form>
+    <table border="5">
+        <tr>
+            <td colspan="10" > <input class="td" type="text" id="nhapso"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="Rad" ></td>
+            <td><input type="button" value="       " ></td>
+            <td><input type="button" value="  x!  " ></td>
+            <td><input type="button" value="   (   " ></td>
+            <td><input type="button" value="   )   " ></td>
+            <td><input type="button" value="  %  " ></td>
+            <td><input type="button" value=" AC " onclick=" s3() "/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value=" Inv " ></td>
+            <td><input type="button" value=" Sin " ></td>
+            <td><input type="button" value="  In  " ></td>
+            <td> <input type="button" value="   7  " onclick="s1 ('7')"/></td>
+            <td> <input type="button" value="   8  " onclick="s1 ('8')"/></td>
+            <td> <input type="button" value="   9  " onclick="s1 ('9')"/></td>
+            <td> <input type="button" value="   /   " onclick="s1 ('/')"/></td>
+
+        </tr>
+        <tr>
+            <td><input type="button" value="  Pi  " ></td>
+            <td><input type="button" value=" cos " ></td>
+            <td><input type="button" value=" log " ></td>
+            <td> <input type="button" value="   4  "onclick="s1 ('4')"/></td>
+            <td> <input type="button" value="   5  "onclick="s1 ('5')"/></td>
+            <td> <input type="button" value="   6  "onclick="s1 ('6')"/></td>
+            <td> <input type="button" value="   *  " onclick="s1 ('*')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="   e  " ></td>
+            <td><input type="button" value=" tan  " ></td>
+            <td><input type="button" value="   ?   " ></td>
+            <td> <input type="button" value="   1  " onclick="s1 ('1')"/></td>
+            <td> <input type="button" value="   2   "onclick="s1 ('2')"/></td>
+            <td> <input type="button" value="   3  "onclick="s1 ('3')"/></td>
+            <td> <input type="button" value="   -   " onclick="s1 ('-')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value=" Ans " ></td>
+            <td><input type="button" value=" EXP "></td>
+            <td><input type="button" value=" x^y " ></td>
+            <td> <input type="button" value="   0  " onclick="s1 ('0')"/></td>
+            <td> <input type="button" value="   .   "onclick="s1 ('.')"/></td>
+            <td> <input type="button" value="   =  " onclick="s2()"/></td>
+            <td> <input type="button" value="   +  " onclick="s1 ('+')"/></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
